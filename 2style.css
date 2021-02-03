@@ -1,0 +1,306 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.container{
+	max-width: 1140px;
+	margin: auto;
+}
+/*---------------first------------------*/
+a{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+    vertical-align: middle;
+}
+    .btn{
+    	display: inline-block;
+    	font-weight: 400;
+    	text-align: center;
+        vertical-align: middle;
+        padding:10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .btn-block{
+    	display: block;
+        margin-left: 15px;
+    }
+    .btn-primary{
+		color: #fff;
+        background-color: #0062cc;
+        border-color: #005cbf;       
+	}
+	.btn-info{
+		color: #fff;
+        background-color: #17a2b8;
+        border-color: #17a2b8;        
+	}
+	.btn-secondary{
+		color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;       
+	}
+	.btn-success{
+		color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;       
+	}
+	.btn-warning{
+		color: #212529;
+        background-color: #ffc107;
+        border-color: #ffc107;        
+	}
+	.form-control{
+		display:block;
+		width: 100%;
+		border-radius: 3px;
+		border:1px solid #ced4da;
+		font-size: 15px;
+		font-weight: 400;
+    	text-align:left;
+    	line-height:5px;
+    	padding: 10px; 
+	}
+	.form li{
+		margin-bottom: 10px;
+		list-style: none;
+	}
+	.from-group textarea{
+		height: auto;
+	}
+
+	.from-group label {
+       display: inline-block;
+       margin-bottom:10px;
+    }
+    .form-control-file{
+       display: block;
+       width: 100%;
+    }
+    .form-control-range{
+      display: block;
+      width: 70%;
+    }
+    label{
+    	display: inline-block;
+    	margin-bottom:.5rem;
+    }
+    .form-check-lable{
+    	padding-left:.5rem;	
+    }
+    .form-check-lable{
+       padding-left:.5rem;		
+    }
+	
+/*--------------------------------midea 1st------------------*/
+@media (min-width:425px) {
+    .col-sm-1 {
+		flex:9%;
+		max-width:9%;
+		width: 100%;
+
+	}
+	.col-sm-2{
+		flex:16.66%;
+		max-width:16.66%;
+		width: 100%;
+
+	}
+	.col-sm-3{
+		flex:25%;
+		max-width:25%;
+		width: 100%;
+
+	}
+	 .col-sm-4{
+   	    flex:33.33%;
+	    max-width:33.33%;
+		width: 100%;
+
+   }
+   .col-sm-5{
+		flex:41.66%;
+		max-width:41.66%;
+		width: 100%;
+
+    }
+   .col-sm-6{
+   	    flex:50%;
+	    max-width:50%;
+		width: 100%;
+
+   }
+    .col-sm-7{
+		flex:58.33%;
+		max-width:58.33%;
+		width: 100%;
+
+	}
+   .col-sm-8{
+   	   flex:66.66%;
+	   max-width:66.66%;
+		width: 100%;
+
+   }
+   .col-sm-9{
+		flex:75%;
+		max-width:75%;
+		width: 100%;
+
+	}
+	.col-sm-10{
+		flex:83.33%;
+		max-width:83.33%;
+		width: 100%;
+
+	}
+	.col-sm-11{
+		flex:91%;
+		width: 100%;
+		max-width:91%;
+	}
+
+   .col-sm-12 {
+		flex:100%;
+		max-width:100%;
+		width: 100%;
+
+	}
+	
+}
+
+@media (min-width:768px) {
+   .col-md-1 {
+		flex:9%;
+		max-width:9%;
+		width: 100%;
+
+	}
+	.col-md-2{
+		flex:16.66%;
+		max-width:16.66%;
+		width: 100%;
+
+	}
+	.col-md-3{
+		flex:25%;
+		max-width:25%;
+		width: 100%;
+
+	}
+	 .col-md-4{
+   	    flex:33.33%;
+	    max-width:33.33%;
+		width: 100%;
+
+   }
+   .col-md-5{
+		flex:41.66%;
+		max-width:41.66%;
+		width: 100%;
+    }
+   .col-md-6{
+   	flex:50%;
+	max-width:50%;
+	width: 100%;
+   }
+    .col-md-7{
+		flex:58.33%;
+		max-width:58.33%;
+		width: 100%;
+	}
+   .col-md-8{
+   	flex:66.66%;
+	max-width:66.66%;
+	width: 100%;
+   }
+   .col-md-9{
+		flex:75%;
+		max-width:75%;
+		width: 100%;
+	}
+	.col-md-10{
+		flex:83.33%;
+		max-width:83.33%;
+		width: 100%;
+	}
+	.col-md-11{
+		flex:91%;
+		max-width:91%;
+		width: 100%;
+	}
+   
+}
+
+@media (min-width: 992px) { 
+	.col-lg-1 {
+		flex:9%;
+		max-width:9%; 
+		width: 100%;
+	}
+	.col-lg-2{
+		flex:16.66%;
+		max-width:16.66%;
+		width: 100%;
+	}
+	.col-lg-3{
+		flex:25%;
+		max-width:25%;
+		width: 100%;
+	}
+	.col-lg-4{
+		flex:33.33%;
+		max-width:33.33%;
+		width: 100%;
+	}
+	.col-lg-5{
+		flex:41.66%;
+		max-width:41.66%;
+		width: 100%;	   
+	}
+	.col-lg-6{
+		flex:50%;
+		max-width:50%;
+		width: 100%;
+	}
+	.col-lg-7{
+		flex:58.33%;
+		max-width:58.33%;
+		width: 100%;
+	}
+	.col-lg-8{
+		flex:66.66%;
+		max-width:66.66%;
+		width: 100%;
+	}
+	.col-lg-9{
+		flex:75%;
+		max-width:75%;
+		width: 100%;
+	}
+	.col-lg-10{
+		flex:83.33%;
+		max-width:83.33%;
+		width: 100%;
+	}
+	.col-lg-11{
+		flex:91%;
+		max-width:91%;
+		width: 100%;
+	}
+    
+	
+}
+
+ 

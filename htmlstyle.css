@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+body{
+	background-image: url("/img/html.jpeg");
+}
+.intro {
+	align-items: center;
+	padding:8rem 4rem 6rem 4rem;
+    position: relative;
+    cursor: default;
+    text-align: center;
+    z-index: 1;
+    min-height: 100vh;
+}
+ h1{
+	text-align: center;
+	vertical-align: baseline;
+}
+
+

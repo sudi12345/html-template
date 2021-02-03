@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic layout</title>
+	<style>
+		body{
+			font-family: arial,helvatica;
+			background-color: slategray;
+			margin: 0px;
+			padding: 0px;
+		}
+		#wrapper{ border:0px solid black; 
+		         margin: 0px auto;
+		         background-color: white;
+		         width: 1000px;
+		         }
+		#header{background-color:crimson;
+			color: white;
+		
+		  height:100px; }
+		#header h1{padding: 30px 50px 0px 30px; }
+
+		#menu{background-color:lightsalmon;}
+		#menu ul{margin:0px;
+		         padding:0px;}
+		#menu li{display: inline-block;}
+		#menu li a{display:block;
+			   padding:10px 10px;
+			   text-decoration:none; 
+			   color: black; }
+	    #menu li a:hover {background-color:crimson;
+	             color:white;}
+
+		#content{ width:700px;
+		text-align: justify;
+		padding: 15px;
+	    float: left;
+	    box-sizing:border-box;
+	    }
+
+		#sidebar{background-color:lightblue;
+			float: right;
+			min-height:300px;
+		    min-width:200px;}
+		#sidebar a{text-decoration:none; 
+			   color:black;}
+
+		#footer{background-color:lightsalmon;
+		        clear: both;
+		        padding: 5px 10px;
+		        text-align: right;}
+
+		@media screen and (max-width: 1320px){
+		   #wrapper{ width: 900px; }
+			
+		   #content{width:70%;}
+		   #sidebar{width:18%;}
+			}
+        @media screen and (max-width: 940px){
+		      #wrapper{ width: 700px; }
+			}
+	    @media screen and (max-width: 700px){
+               #wrapper{ width:auto; }
+               #header h1{padding: 30px 0px 0px 0px; 
+               	text-align: center;}
+               #content{width:100%;
+                        float:none; }
+               #sidebar{width:100%;
+                        float:none; }
+			}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header"><h1> yahhoo baba</h1></div>
+		<div id="menu">
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">about us</a></li>
+				<li><a href="">gallery</a></li>
+				<li><a href="">contact us</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h1>learn basic layout</h1>
+			<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    jiujbhftgvtemptempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute</p>
+
+	<p>temptempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute</p>
+
+		</div>
+		<div id="sidebar">
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">about us</a></li>
+				<li><a href="">gallery</a></li>
+				<li><a href="">contact us</a></li>
+			</ul>
+		</div>
+		<div id="footer">yahooo baba@copyright 2020</div>
+	</div>
+
+</body>
+</html>
